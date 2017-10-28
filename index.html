@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Random Quote Generator</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/quote-generator.css">
+
+</head>
+
+<body>
+		<div id="wrapper">
+				<div class="container-fluid text-center">
+		
+					<div class="row">
+						<div class="col-md-12 col-xs-12">
+		
+							<img class="center-block img-responsive" src="http://www.stephenfry.com/wp-content/themes/stephenfry/img/quote-generator/header.png">
+						</div>
+					</div>
+		
+					<div class="row">
+						<div class="col-md-12 col-xs-12">
+							<div class="newFormat">
+								<button id="newQuote" class="btn btn-responsive" type="button" onclick="getInformation()">New Quote</button>
+								<button id="newQuote2" class="btn btn-responsive" type="button" onclick="getTwitter()">Twitter</button>
+		
+							</div>
+						</div>
+					</div>
+		
+					<div class="container-fluid text-center margin-bottom">
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+		
+								<div class="quotes text-center">
+									<span class="quote" id="quote"></span>
+									<br />
+									<span class="author" id="author"></span>
+									<div class="developer text-center">
+										<p>Written & coded by <a href="mailto:promie@gmail.com?Subject=Enquiry" target="_top">Promie Yutasane</p></a>
+									</div>
+		
+								</div>
+		
+		
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--jQuery UI-->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<!--Latest compiled and minified JavaScript-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!--Main JS File (Local)-->
+	<script type="text/javascript" src="js/quote-generator.js"></script>
+
+</body>
+
+</html>

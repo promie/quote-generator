@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+body {
+    margin-top: 80px;
+    font-family: "Times New Roman";
+    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/white-wallpapers-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+.quotes {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    height: auto;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 50px;
+}
+
+.quote {
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+    color: #00B9FF;
+    font-weight: bold;
+}
+
+.author {
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.newFormat {
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #00B6FC;
+    color: #FCD800;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    color: #FCD800;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #00B6FC;
+}
+
+a:visited {
+    color: #FCD800;
+}
+
+.developer {
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+}
+
+.developer p {
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+}
+
+
+#newQuote {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Chewy', cursive;
+    margin-left: 80px;
+    
+
+}
+
+#newQuote2 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Chewy', cursive;
+
+    
+
+}
+
+img{
+
+    width: 400px;
+}
+
+
+
+.developer a {
+    color: #00B9FF;
+}
+
+.developer a:hover {
+    color: #D7CE29;
+    text-decoration: none;
+}
