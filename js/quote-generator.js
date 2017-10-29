@@ -19,7 +19,7 @@ function getInformation(){
     
     }
     
-    getAPI.send();
+    getAPI.send(null);
 
 }
 
