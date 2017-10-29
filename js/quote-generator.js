@@ -1,37 +1,38 @@
-//MODEL
 
-//Get an API
+$(document).ready(function(){
 
-function getInformation(){
+    init();
 
-    var getAPI = new XMLHttpRequest();
-    getAPI.open('GET', "http://quotes.stormconsultancy.co.uk/random.json",true);
-    getAPI.onload = function() {
-    
-        var apiData = JSON.parse(getAPI.responseText);
+    function init() {
+
+        const URL = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?';
         
-        const author = document.getElementById('author');
-        author.innerHTML = apiData.author;
-    
-        const quote = document.getElementById('quote');
-        quote.innerHTML = apiData.quote;
-    
-    
-    }
-    
-    getAPI.send(null);
-
-}
+            $.getJSON(URL, data => {
+                
+                $('#quote').html(data.quoteText);
+                if(data.quoteText === ''){
+                    
+                    $('#author').html('Anonymous');
+                }else{
+                    $('#author').html(data.quoteAuthor);
+                }
 
 
-function getTwitter() {
-    alert('Under Construction');
-}
+            });}
+
+    $('#newQuote').click(function(){
+        init();
+    });
+
+    $('#newQuote2').click(function(){
+
+    // https://twitter.com/intent/tweet?hashtags=quotes,freecodecamp&related=freecodecamp&text=
+        alert('Under Construction!');
+    });
+
+
+});
 
 
 
-//VIEW
-
-//Initialization
-getInformation();
 
