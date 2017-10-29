@@ -10,6 +10,7 @@ body {
     background-size: cover;
 }
 
+/*=====FORMAT=====*/
 h1 {
     color: white;
     font-size: 50px;
@@ -20,6 +21,52 @@ p {
     font-size: 15px;
 }
 
+.newFormat {
+    margin-top: 10px;
+}
+
+
+/*=====IMAGE FORMAT=====*/
+img{
+    width: 400px;
+}
+    
+
+/*=====BUTTONS=====*/
+.btn {
+    background-color: #00B6FC;
+    color: #FCD800;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    color: #FCD800;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #00B6FC;
+}
+
+a:visited {
+    color: #FCD800;
+}
+
+#twitter {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Chewy', cursive;
+}
+
+#newQuote {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Chewy', cursive;
+    margin-left: 80px;
+}
+
+/*=====QUOTE GENERATOR BOX=====*/
 .quotes {
     width: 70%;
     margin-right: auto;
@@ -49,30 +96,6 @@ p {
     font-weight: bold;
 }
 
-.newFormat {
-    margin-top: 10px;
-}
-
-.btn {
-    background-color: #00B6FC;
-    color: #FCD800;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-a {
-    color: #FCD800;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #00B6FC;
-}
-
-a:visited {
-    color: #FCD800;
-}
-
 .developer {
     margin-top: 15px;
     font-weight: bold;
@@ -85,32 +108,6 @@ a:visited {
     color: black;
 }
 
-
-#newQuote {
-    font-weight: bold;
-    font-size: 20px;
-    font-family: 'Chewy', cursive;
-    margin-left: 80px;
-    
-
-}
-
-#twitter {
-    font-weight: bold;
-    font-size: 20px;
-    font-family: 'Chewy', cursive;
-
-    
-
-}
-
-img{
-
-    width: 400px;
-}
-
-
-
 .developer a {
     color: #00B9FF;
 }
@@ -119,3 +116,24 @@ img{
     color: #D7CE29;
     text-decoration: none;
 }
+
+.source-code{
+    color: black;
+    font-size: 18px;
+}
+
+.github{
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

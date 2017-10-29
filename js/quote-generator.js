@@ -1,7 +1,8 @@
 
 $(document).ready(function(){
 
-    setInterval(init(), 10000);
+    init();
+    setInterval(init, 10000);
 
     function init() {
 
@@ -17,7 +18,7 @@ $(document).ready(function(){
                     
                     $('#author').html('Anonymous');
                 }else{
-                    $('#author').html(author);
+                    $('#author').html(formatAuthor(author));
                 }
                
                 var twitterURL = "https://twitter.com/intent/tweet?text=" + quote + " - " + author;
@@ -31,15 +32,14 @@ $(document).ready(function(){
 //VIEW
     
     function formatQuote(quote){
-        return `<em>${quote}</em> - `;
+        return `"<em>${quote}</em>"`;
+    }
+
+    function formatAuthor(author){
+        return `- ${author}`;
     }
 
 });
 
 
-/*
 
-- Github Logo
-- Refresh Button
-
-*/
