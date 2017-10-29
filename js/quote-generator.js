@@ -5,7 +5,7 @@
 function getInformation(){
 
     var getAPI = new XMLHttpRequest();
-    getAPI.open('GET', "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?"");
+    getAPI.open('GET', "http://quotes.stormconsultancy.co.uk/random.json");
     getAPI.onload = function() {
     
         var apiData = JSON.parse(getAPI.responseText);
