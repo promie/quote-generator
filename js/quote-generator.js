@@ -5,7 +5,7 @@
 function getInformation(){
 
     var getAPI = new XMLHttpRequest();
-    getAPI.open('GET', "http://quotes.stormconsultancy.co.uk/random.json");
+    getAPI.open('GET', "http://quotes.stormconsultancy.co.uk/random.json",true);
     getAPI.onload = function() {
     
         var apiData = JSON.parse(getAPI.responseText);
